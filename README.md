@@ -12,11 +12,11 @@ Instead of pandas DataFrames, use Dask DataFrames whenever possible.
 Instead of NumPy arrays, use Dask arrays whenever possible.
 Use Dask to parallelize your model trainings.
 
-## Capstone 2: Supervised learning
-### Mushroom classification model
+## Capstone 2: Supervised Learning
+### Mushroom Classification Model
 Dataset: Mushroom records drawn from The Audubon Society Field Guide to North American Mushrooms (1981).
 
-## Dataset & research question
+## Dataset & Research Question
 
 This dataset includes descriptions of hypothetical samples corresponding to 23 species of gilled mushrooms in the Agaricus and Lepiota Family. Each species is identified as definitely edible, definitely poisonous, or of unknown edibility and not recommended. This latter class was combined with the poisonous one. The Guide clearly states that there is no simple rule for determining the edibility of a mushroom; no rule like "leaflets three, let it be'' for Poisonous Oak and Ivy.
 
@@ -24,12 +24,12 @@ From this dataset we aim to determine the following:
 Can mushroom samples be correctly identified as edible or poisonous based on a set of physical attributes?
 
 
-## Model specification & results
+## Model Specification & Results
 
 For this analysis, five classification models were fit to the data. AUC ROC scores were used to assess the accuracy of each model. Processing times were also logged in order to compare performance between models. For our purposes, the best model was the KNN classifier with a processing time of 0.062 s. Ultimately the top factor in selecting the best model was processing time, since all 5 of the models achieved 100% accuracy.
 
 
-## Practical uses & considerations
+## Practical Uses & Considerations
 
 * This model could be used by mushroom collectors to determine whether the mushrooms they encounter in the field are edible or poisonous. 
 * This can mean the difference between survival and death in certain instances, so it is important that the model has the highest possible accuracy. 
