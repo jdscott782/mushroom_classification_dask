@@ -26,12 +26,10 @@ Can mushroom samples be correctly identified as edible or poisonous based on a s
 
 ## Model specification & results
 
-For this analysis, five classification models were fit to the data. AUC ROC scores were used to assess the accuracy of each model. Processing times were also logged in order to compare performance between models.
+For this analysis, five classification models were fit to the data. AUC ROC scores were used to assess the accuracy of each model. Processing times were also logged in order to compare performance between models. For our purposes, the best model was the KNN classifier with a processing time of 0.062 s. Ultimately the top factor in selecting the best model was processing time, since all 5 of the models achieved 100% accuracy.
 
 
 ## Practical uses & considerations
-
-For our purposes, the best model was the KNN classifier with a processing time of 0.062 s. Ultimately the top factor in selecting the best model was processing time, since all 5 of the models achieved 100% accuracy.
 
 * This model could be used by mushroom collectors to determine whether the mushrooms they encounter in the field are edible or poisonous. 
 * This can mean the difference between survival and death in certain instances, so it is important that the model has the highest possible accuracy. 
