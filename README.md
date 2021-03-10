@@ -1,6 +1,7 @@
 # mushroom_classification_dask
 
-Big Data Challenge
+## Big Data Challenge
+
 In this challenge, you'll replicate one of the supervised learning projects that you did before in the program. This time, you'll use Dask instead of pandas and NumPy. Follow the instructions below:
 
 The aim of this challenge is to get your hands dirty on writing code using Dask. This is why there is no minimum or maximum limit on the size of the dataset that you can use.
@@ -11,7 +12,7 @@ Instead of pandas DataFrames, use Dask DataFrames whenever possible.
 Instead of NumPy arrays, use Dask arrays whenever possible.
 Use Dask to parallelize your model trainings.
 
-# Capstone 2: Supervised learning
+## Capstone 2: Supervised learning
 ### Mushroom classification model
 Dataset: Mushroom records drawn from The Audubon Society Field Guide to North American Mushrooms (1981).
 
