@@ -26,7 +26,7 @@ Can mushroom samples be correctly identified as edible or poisonous based on a s
 
 ## Model specification & results
 
-For this analysis, five classification models were fit to the data. AUC ROC scores were used to assess the accuracy of each model. For the random forest and KNN classifiers, hyperparameter tuning was done to determine the optimal number of estimators and neighbors, respectively.
+For this analysis, five classification models were fit to the data. AUC ROC scores were used to assess the accuracy of each model. Processing times were also logged in order to compare performance between models.
 
 
 ## Practical uses & considerations
